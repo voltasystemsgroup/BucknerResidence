@@ -1,0 +1,16 @@
+<Device Model="MC3" Name="MC3.">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-IO" DeviceId="41"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="EslaveMC3" DeviceId="52" Name="Family - MC3">
+         <Network Type="Cresnet" Id="01"/>
+         <Network Type="RF" Id="03">
+            <Device Model="HR-150,HRI-150" DeviceId="03" Name="HR-150"/>
+         </Network>
+      </Device>
+   </Network>
+   <Network Type="RF" Id="03">
+      <Device Model="HR-150,HRI-150" DeviceId="03" Name="RF-ID-03"/>
+   </Network>
+</Device>
